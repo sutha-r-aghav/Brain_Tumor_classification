@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Tumor Detection</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="b1.png">
+</head>
+<body>
+
+    <header>
+        <h1>Brain Tumor Detection Using AI</h1>
+        <p>MRI Image Classification using Deep Learning</p>
+    </header>
+    <main>
+    <div class="container">
+
+        <div class="card">
+
+            <h2>Upload MRI Scan</h2>
+
+            <input type="file" id="imageInput" accept="image/*">
+
+            <img id="preview" src="" alt="Image Preview">
+
+            <button onclick="predict()">Predict</button>
+
+            <div id="result">
+                Prediction will appear here
+            </div>
+
+        </div>
+
+        <div class="info">
+
+            <h2>Project Information</h2>
+
+            <p>
+                This project detects brain tumors from MRI images using
+                a Deep Learning model based on ResNet50.
+            </p>
+
+            <ul>
+                <li>✔ MRI Image Input</li>
+                <li>✔ Deep Learning Prediction</li>
+            </ul>
+
+        </div>
+
+    </div>
+    </main>
+
+    <footer>
+        Developed by Raghav Suthar & Punit
+    </footer>
+
+<script src="select.js"></script>
+
+</body>
+</html>
